@@ -1,6 +1,16 @@
-# EXP 04 - CREATE A WEB-LAYOUT USING GRIDBOX
-## Program:
-```
+# Ex-04:
+## CREATE A WEB-LAYOUT USING GRIDBOX
+### AIM:
+The aim of this code is to create a web layout using CSS Grid, which provides a powerful grid system for arranging elements on a webpage.
+### ALGORITHM:
+1. Create an HTML document with the necessary structure, including the doctype declaration, title tag, and style tag.
+2. Set the CSS to make the body element a grid container using the display property set to "grid".
+3. Add a grid-gap to create some spacing between the grid items.
+4. Apply styles to the header, footer, article, nav, and div elements to set their background color and padding.
+5. Use the grid-area property to assign specific grid areas to each element, matching the names defined in the grid-template-areas property.
+6. Close the style tag and include the header, article, nav, div, and footer elements within the body of the HTML document, assigning them corresponding IDs to match the grid areas.
+### PROGRAM:
+```html
 <!doctype html>
 <title>Example</title>
 <style>
@@ -45,6 +55,8 @@ header, footer, article, nav, div {
 </body>
 
 ```
-## Output:
-
+### OUTPUT:
 <img width="1279" alt="1" src="https://github.com/KeerthikaNagarajan/WEB-LAYOUT-USING-GRIDBOX/assets/93427089/c9ab66b2-31f9-45c4-b878-7ab9f2ceeecd">
+
+### RESULT:
+The code will generate a webpage with a grid layout. 
